@@ -6,7 +6,7 @@ test("types", function() {
     var typeOfFloats = typeof(3.14159);
     equal(true, typeOfIntegers === typeOfFloats, 'are ints and floats the same type?');
     equal('number', typeOfIntegers, 'what is the javascript numeric type?');
-    equal('number', 1.0, 'what is a integer number equivalent to 1.0?');
+    equal(1, 1.0, 'what is a integer number equivalent to 1.0?');
 });
 
 test("NaN", function() {
